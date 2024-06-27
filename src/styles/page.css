@@ -1,0 +1,91 @@
+.page {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 600px; 
+  height: 100vh;
+  background-color: #F3F5FC;
+}
+
+.logo-section {
+  flex: 0 0 auto; 
+  width: 10%; 
+}
+
+.prompt-section,
+.message-section {
+  padding: 2em;
+}
+
+.prompt-section {
+  flex: 1 1 60%; 
+  padding: 2em;
+  min-width: 200px; 
+}
+
+.message-section {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1 1 30%;
+  width: 30%; 
+  min-width: 200px; 
+  min-height: 100%;
+}
+
+.prompt-section textarea {
+  margin-top: 2em;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+  background-color: #F3F5FC;
+  outline: none;
+}
+
+button {
+  width: 200px;
+  padding: 1em;
+  margin: 1em;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.encode-button {
+  background-color: #0A3871;
+  color: white;
+}
+
+.decode-button {
+  background-color: #D8DFE8;
+  color: #0A3871;
+  border: 1px solid #0A3871;
+}
+
+.decode-button-with-message {
+  background-color: #F3F5FC;
+}
+
+.logo {
+  width: 120px;
+  height: 48px;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+}
+
+.warning-message {
+  display: flex;
+  align-items: center; 
+  margin-left: 12px;
+  color: #495057;
+}
+
+.warning-message .exclamation-circle {
+  margin-right: 6px;
+}
+
+.warning-message p {
+  margin: 0; 
+  white-space: nowrap; 
+}
